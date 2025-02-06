@@ -1,0 +1,8 @@
+streamlit==1.33.0
+pandas
+plotly
+plotly.express
+streamlit-option-menu==0.3.12
+pages
+streamlit-aggrid 
+millify 
