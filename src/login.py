@@ -47,7 +47,7 @@ class LoginClass:
     #     return username, password, botaosubmit
 
     def authenticate_user(self, username, password):
-        API_URL = os.getenv("API_URL", "http://localhost:85/api/login")
+        API_URL = os.getenv("API_URL", "http://192.168.15.69:85/api/login")
         with st.spinner("Checando usuario e senha..."):
             try:
                 resposta_da_retaguarda = requests.post(API_URL, json={'user': username, 'senha': password, 'sessionid': ''})

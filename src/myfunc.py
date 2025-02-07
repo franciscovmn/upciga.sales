@@ -10,7 +10,7 @@ from streamlit_option_menu import option_menu
 # from user_agents import parse
 # from streamlit_user_agent import UserAgent
 
-from streamlit_javascript import st_javascript
+#from streamlit_javascript import st_javascript
 import re
 
 # st.set_option('deprecation.showPyplotGlobalUse', False)

@@ -6,3 +6,5 @@ streamlit-option-menu==0.3.12
 pages
 streamlit-aggrid 
 millify 
+streamlit_navigation_bar
+streamlit_extras.metric_cards

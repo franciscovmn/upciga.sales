@@ -7,7 +7,6 @@ from streamlit_option_menu import option_menu
 import numpy as np
 from plotly.subplots import make_subplots
 import os
-from streamlit_kpi import streamlit_kpi
 import myfunc
 from streamlit_extras.metric_cards import style_metric_cards
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode

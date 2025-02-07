@@ -2,8 +2,8 @@
 import json
 import streamlit as st
 import os
-from streamlit_navigation_bar import st_navbar
-import pages as pg
+#from streamlit_navigation_bar import st_navbar
+#import pages as pg
 import myfunc
 
 # st.set_page_config(page_title="UpCiga BI", layout='wide', initial_sidebar_state="collapsed")
