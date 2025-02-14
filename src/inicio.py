@@ -14,8 +14,8 @@ def app( self ):
             meta_total = self.df_totais_por_vendedores['V_META'].sum() 
         else:
             # st.subheader('Totais Gerais das Vendas :bar_chart:', divider='rainbow')
-            venda_total = df_totais_empresa['FVAL'].sum() 
-            meta_total = df_totais_empresa['V_META'].sum() 
+            venda_total = self.df_totais_empresa['FVAL'].sum() 
+            meta_total = self.df_totais_empresa['V_META'].sum() 
 
         cFiltrosAplicados = myfunc.get_filtros_ativos()
         if cFiltrosAplicados != '':
